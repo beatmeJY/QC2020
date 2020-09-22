@@ -1,0 +1,13 @@
+
+@mixin borderContainer($border-width){
+  width: $default-width;
+  border-radius: $border-width;
+  border-style: inset;
+  padding: $default-padding;
+  color: $white;
+  font-size: 2em;
+}
+@mixin borderContainer_color($edge-color) {
+  background-color: map-get($background-color, $edge-color);
+  border-color: map-get($default-color, $edge-color);
+}

@@ -1,0 +1,6 @@
+//Base SCSS
+
+.qc{
+  @include borderContainer(1em);
+  @include borderContainer_color("strawBerry")
+}

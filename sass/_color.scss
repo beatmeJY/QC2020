@@ -1,32 +1,34 @@
-//Alpa value
-$alpa: 0.3;
+//Alpha Value
+$alpha: 0.4;
 
-//default color
-$blue:    rgb(0, 123 ,255)    !default;
-$purple:  rgb(110, 123 ,255)  !default;
-$red:     rgb(221, 53 ,69)    !default;
-$yellow:  rgb(255, 193 ,6)    !default;
-$green:   rgb(40, 167 ,69)    !default;
-//Gray
-$gray:    rgb(0, 117 ,125)    !default;
-$dark:    rgb(52, 58 ,64)     !default;
+//My Color
+$Mulberry:  rgb(94, 67, 81)  !default;
+$strawBerry:     rgb(180, 49, 4)    !default;
+$greenGrape:   rgb(137, 250, 137)    !default;
+$eggYolk:     rgb(255, 211, 75)    !default;
 
 // Black & White
 $white: rgb(255, 255 ,255)    !default;
 $black: rgb(0, 0, 0)          !default;
 
-// background color
-$bg-blue:   rgba($blue,$alpa)   !default;
-$bg-purple: rgba($purple,$alpa) !default;
-$bg-red:    rgba($red,$alpa)    !default;
-$bg-yellow: rgba($yellow,$alpa) !default;
-$bg-green:  rgba($green,$alpa)  !default;
+// Background Color
+$bg-Mulberry: rgba($Mulberry,$alpha) !default;
+$bg-strawBerry:    rgba($strawBerry,$alpha)    !default;
+$bg-greenGrape: rgba($greenGrape,$alpha) !default;
+$bg-eggYolk:  rgba($eggYolk,$alpha)  !default;
 
-//default color array
+// Background Color Array
+$background-color:(
+  'Mulberry': rgba($Mulberry,$alpha),
+  'strawBerry':    rgba($strawBerry,$alpha),
+  'greenGrape': rgba($greenGrape,$alpha),
+  'eggYolk':  rgba($eggYolk,$alpha)
+);
+
+//My Color Array
 $default-color:(
-  'blue':   $blue,
-  'purple': $purple,
-  'red':    $red,
-  'yellow': $yellow,
-  'green':  $green
-)
+  'Mulberry': $Mulberry,
+  'strawBerry':    $strawBerry,
+  'greenGrape': $greenGrape,
+  'eggYolk':  $eggYolk
+);
