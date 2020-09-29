@@ -1,5 +1,9 @@
 //Base SCSS
 
+html{
+  @include jiyoul-font-size($jiyoul-font-size);
+}
+
 .borderContainer{
   @include borderContainer(1em);
   @include borderContainer_color("strawBerry")

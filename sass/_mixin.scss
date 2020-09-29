@@ -1,3 +1,6 @@
+@mixin jiyoul-font-size($input-size){
+  font-size: $input-size;
+}
 
 @mixin borderContainer($border-width){
   width: $default-width;
