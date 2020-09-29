@@ -1,5 +1,7 @@
 # 최지율
 
+### dothome 주소 : http://wldbf97.dothome.co.kr/
+
 ## 9월 29일
 1. typography.scss로 기본 font-size를 설정하여 rem으로 자동 크기 조절.
 
