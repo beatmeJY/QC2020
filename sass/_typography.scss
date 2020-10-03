@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
 $jiyoul-font-size:    10px;
-// $jiyoul-font-family : "";
+$jiyoul-font-family :'Gugi', cursive;
+$my-font:             1.6em;
 
 h1{
   font-size: 3em;
+  font-family: $jiyoul-font-family;
 }
 h2{
   font-size: 2.6em;

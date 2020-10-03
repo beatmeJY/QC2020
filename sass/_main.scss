@@ -1,7 +1,10 @@
 //Base SCSS
 
 html{
-  @include jiyoul-font-size($jiyoul-font-size);
+  @include input-font($jiyoul-font-size, $jiyoul-font-family);
+}
+.my-font-size{
+  @include input-font(6em , $jiyoul-font-family)
 }
 
 .borderContainer{
